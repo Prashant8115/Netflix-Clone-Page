@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 body{
     background-color: rgb(44, 36, 33);
@@ -44,6 +45,7 @@ body{
 }
 
 .container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +53,6 @@ body{
     gap: 15px;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
-    width: 100%;
     z-index: 1000;
 }
 
@@ -150,11 +151,11 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .trBox1 {
-    height: 50%;
+    height: 48%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -181,7 +182,7 @@ color: white;
     border-radius: 20px;
 }
 .trBox2 {
-    height: 50%;
+    height: 48%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -189,23 +190,22 @@ color: white;
 }
 
 .textContainer {
-    height:100%;
+    height:75%;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 .textContainer a{
     text-decoration: none;
 }
 .textBox {
-    height:27vh;
-    width:15vw;
+    height:100%;
+    width:16vw;
     display: flex;
     flex-direction: column;
     background-color: rgb(69, 69, 162);
     color: white;
-    gap: 10px;
-    padding:30px;
+    gap: 8px;
+    padding:10px 10px 0px 20px;
     border: 1px solid rgb(27, 27, 180);
     border-radius: 15px;
 }
@@ -217,7 +217,6 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 .reasonBox{
     height: 50%;
@@ -233,7 +232,6 @@ color: white;
     gap: 15px;
 }
 .reasonText{
-    height:25vh;
     width:20vw;
     background-color: rgb(74, 74, 84);
     color: white;
@@ -252,18 +250,18 @@ color: white;
 
 /* Questions page */
 .question{
-    height: 100vh;
+    height:max-content;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .questionContainer{
-    height: 100%;
+    height:100%;
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     padding: 30px 0px  30px 0px;
 }
 .questionContent{
@@ -282,6 +280,8 @@ color: white;
 }
 
 .place{
+
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,14 +346,7 @@ footer{
     color: white;
 }
 .languageSelection{
-    width:90vw;
-    height: 20vh;
-    padding-left:10vw;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-
+  padding:7vh 0px 5vh 9vw;
 }
 .eng{
     width: 110px;
@@ -364,5 +357,6 @@ footer{
     font-size: 19px;
     color: white;
 }
+
 
 
